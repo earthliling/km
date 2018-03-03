@@ -138,6 +138,12 @@
   - 生成成功后，一般在目录：C:/users/name/.ssh/id_rsa
 - 使用记事本打开id_rsa.pub，得到ssh key公钥。
 - 在github，点开settings，打开“SSH and PGP keys”，点击“New SSH Key”
+- 修改remote方式（https或者ssh）
+  - 查看当前的remote方式 git remote -v
+  - 修改为https
+  > git remote set-url origin https://github.com/useranme/test.git
+  - 修改为ssh
+  > git remote set-url origin git@github.com/username/test.git
 
 ## 参考
 - [Git教程-廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
