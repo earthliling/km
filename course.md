@@ -1,7 +1,7 @@
 # 机器学习
 
 ## 机器学习
-  - 吴恩达机器学习课程(https://www.coursera.org/learn/machine-learning)
+  - [吴恩达机器学习课程](https://www.coursera.org/learn/machine-learning)
 
 
 ## 深度学习
